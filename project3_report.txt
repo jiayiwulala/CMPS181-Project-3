@@ -1,0 +1,38 @@
+1. Basic information
+Team number (e.g., 01) : 
+#1 Submitter ID : 
+#1 Student Name : 
+
+
+
+2. Index Entry Format
+- Show your index entry design (structure). 
+    int32_t intkey/ float realkey /int32_t charKeyOffset;
+    uint32_t childPageId;
+
+
+3. Page Format
+- Show your internal-page (non-leaf node) design.
+
+(PAGE_SIZE----------0)
+
+VarChar Key (length + varChar list)(0,1,2,3...N)(free-space-offset)----(N,....3,2,1,0) IndexEntry------Fixed size index-page header
+
+
+- Show your leaf-page (leaf node) design.
+
+(PAGE_SIZE----------0)
+
+VarChar Key (length + varChar list)(0,1,2,3...N)(free-space-offset)----(N,....3,2,1,0) DataEntry------Fixed size Leaf-page header
+
+
+4. Implementation Detail
+- Have you added your own source file (.cc or .h)?
+
+
+- Other implementation details:
+
+
+5. Other (optional)
+- Freely use this section to tell us about things that are related to the project 3, but not related to the other sections (optional).  For example, if you chose to do the extra credit (non-lazy deletion), please tell us here what you did.
+
