@@ -1,0 +1,17 @@
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_14.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_11.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_15.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_09.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_08.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_07.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_10.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_04.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_05.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_06.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_02.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_03.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_13.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_12.dir
+/Users/jiayi/Desktop/CMPS181-Project-3/cmake-build-debug/CMakeFiles/ixtest_01.dir

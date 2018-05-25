@@ -113,9 +113,8 @@ class IndexManager {
                 IX_ScanIterator &ix_ScanIterator);
 
         // Print the B+ tree in pre-order (in a JSON record format)
-        void printBtree(IXFileHandle &ixfileHandle, const Attribute &attribute) const;
+        void printBtree(IXFileHandle &ixfileHandle, const Attribute &attribute);
 
-    NoLeafIndexEntry getIndexEntry(const int slotNum, const void *pageData) const;
 
 public:
         friend class IX_ScanIterator;
@@ -195,6 +194,10 @@ public:
     void printInternalNode(IXFileHandle &ixfileHandle, void *pageData, const Attribute &attr, string prefix);
 
     void printLeafNode(void *pageData, const Attribute &attr);
+
+    //void printBtree(IXFileHandle &ixfileHandle, const Attribute &attribute);
+
+    NoLeafIndexEntry getIndexEntry(const int slotNum, const void *pageData);
 };
 
 
@@ -215,7 +218,7 @@ class IX_ScanIterator {
 
         friend class IndexManager;
     private:
-        IXFileHandle *fileHandle;
+        IXFileHandle *ixFileHandle;
         Attribute attr;
         const void *lowKey;
         const void *highKey;

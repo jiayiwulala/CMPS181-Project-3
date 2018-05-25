@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <cstdio>
 #include <cstring>
+#include <rbfm.h>
 
 #include "ix.h"
 #include "ix_test_util.h"
@@ -46,7 +47,7 @@ int testCase_6(const string &indexFileName, const Attribute &attribute)
 
         rc = indexManager->insertEntry(ixfileHandle, attribute, &key, rid);
         assert(rc == success && "indexManager::insertEntry() should not fail.");
-
+        cout << inRidPageNumSum   <<"   "<<rid.pageNum << "in'\n";
         inRidPageNumSum += rid.pageNum;
     }
 
@@ -63,6 +64,7 @@ int testCase_6(const string &indexFileName, const Attribute &attribute)
     	if (rid.pageNum % 200 == 0) {
             cerr << count << " - Returned rid: " << rid.pageNum << " " << rid.slotNum << endl;
         }
+        cout << outRidPageNumSum <<"    " <<rid.pageNum << "out'\n";
         outRidPageNumSum += rid.pageNum;
     }
 
